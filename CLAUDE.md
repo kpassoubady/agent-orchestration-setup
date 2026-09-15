@@ -1,23 +1,33 @@
 # Agent Orchestration Setup
 
-## Project Overview
+Standalone, student-facing pre-class setup repository for **Orchestration Fundamentals for Agentic Development**.
 
-Standalone, student-facing pre-class setup repository for **Orchestration
-Fundamentals for Agentic Development**. It prepares and validates Claude Code,
-Git, and terminal tooling before learners receive the course lab materials.
+## Tech Stack
 
-## Directory Layout
+- **Version Control:** Git
+- **Language/Runtime:** Python 3, Node.js
+- **Agent:** Claude Code
 
-- `llm-context/`: Working context and notes for LLM agents.
-- `scripts/`: Installation and environment-validation helpers.
+## Project Structure
 
-## Verification Steps
+```
+catalog/               Course outline and syllabus
+install/               Installation guides for macOS and Windows
+quickstart-project/    Verification script to confirm tooling is installed
+llm-context/           Working context, notes, and generated reports for LLM agents
+Welcome.md             Entry point message sent to students before class
+```
 
-Run all platform-specific installation checks and the course quickstart
-validation after setup content is added.
+## Key Commands
 
-## Content Guidelines
+```bash
+# Verify the setup environment
+cd quickstart-project
+python3 verify_setup.py
+```
 
-Keep setup instructions standalone, platform-aware, and safe to run before
-class. Validate the exact capabilities needed for Claude Code sessions, Git
-branches or worktrees, merges, and acceptance commands.
+## Conventions
+
+- **Standalone Setup Rule:** Student-facing content must not link to or name the primary, companion, book, or book-companion repositories.
+- Use absolute GitHub URLs (`https://github.com/kpassoubady/agent-orchestration-setup/blob/main/...`) for all links in `Welcome.md`.
+- Keep setup instructions platform-aware and safe to run before class.
