@@ -19,12 +19,18 @@ To ensure a smooth and productive learning experience, please complete the setup
 
 Please see the OS-specific instructions for macOS and Windows in the installation guides. We have also provided a [Verification Quickstart](https://github.com/kpassoubady/agent-orchestration-setup/tree/main/quickstart-project) project. Please run this quickstart to confirm your setup.
 
+The installation guides also walk you through cloning two dependent repositories used during the breakout labs:
+- [claude-helper](https://github.com/kpassoubady/claude-helper)
+- [password-strength-checker](https://github.com/kpassoubady/password-strength-checker)
+
 ## ✅ Checklist Before Class
 
 - [ ] Install Git
 - [ ] Install Python 3
 - [ ] Install Node.js
 - [ ] Install Claude Code
+- [ ] Clone the `claude-helper` repository
+- [ ] Clone the `password-strength-checker` repository
 - [ ] Run the quickstart verification command: `python3 verify_setup.py`
 - [ ] Verify you see the expected output: `🎉 SUCCESS: All required tools are installed correctly!`
 

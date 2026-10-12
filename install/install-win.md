@@ -90,3 +90,20 @@ code --install-extension formulahendry.code-runner
 ```
 
 Or install them from the Extensions view (`Ctrl+Shift+X`) by searching for "Colab in VS Code" and "Code Runner".
+
+## 7. Clone Dependent Repositories
+
+The breakout labs use two additional repositories. Clone them into a working folder of your choice, for example `C:\code`:
+
+```powershell
+mkdir C:\code
+cd C:\code
+git clone https://github.com/kpassoubady/claude-helper.git
+git clone https://github.com/kpassoubady/password-strength-checker.git
+```
+
+Verify both folders were created:
+
+```powershell
+dir claude-helper, password-strength-checker
+```
