@@ -72,3 +72,35 @@ Once installed, you may need to authenticate by running:
 ```bash
 claude login
 ```
+
+## 6. Install Visual Studio Code
+
+Use Homebrew to install Visual Studio Code:
+
+```bash
+brew install --cask visual-studio-code
+```
+
+Verify the installation:
+
+```bash
+code --version
+```
+
+If the `code` command is not found, open VS Code, press `Cmd+Shift+P`, run **Shell Command: Install 'code' command in PATH**, then reopen your terminal.
+
+## 7. Install VS Code Extensions
+
+Install the following extensions, which are used during the breakout labs:
+
+- **Colab in VS Code** ([googlecolab/colab-vscode](https://github.com/googlecolab/colab-vscode)) — connects a VS Code window to a Google Colab runtime
+- **Code Runner** ([formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner)) — runs code snippets in many languages directly from the editor
+
+Install from the command line:
+
+```bash
+code --install-extension google.colab
+code --install-extension formulahendry.code-runner
+```
+
+Or install them from the Extensions view (`Cmd+Shift+X`) by searching for "Colab in VS Code" and "Code Runner".

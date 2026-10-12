@@ -61,3 +61,32 @@ Once installed, you may need to authenticate by running:
 ```powershell
 claude login
 ```
+
+## 5. Install Visual Studio Code
+
+Download and install Visual Studio Code from the official website:
+[https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+
+During installation, make sure to check **"Add to PATH"** so the `code` command is available from the terminal.
+
+Verify the installation by opening a new Command Prompt or PowerShell window and running:
+
+```powershell
+code --version
+```
+
+## 6. Install VS Code Extensions
+
+Install the following extensions, which are used during the breakout labs:
+
+- **Colab in VS Code** ([googlecolab/colab-vscode](https://github.com/googlecolab/colab-vscode)) — connects a VS Code window to a Google Colab runtime
+- **Code Runner** ([formulahendry/vscode-code-runner](https://github.com/formulahendry/vscode-code-runner)) — runs code snippets in many languages directly from the editor
+
+Install from the command line:
+
+```powershell
+code --install-extension google.colab
+code --install-extension formulahendry.code-runner
+```
+
+Or install them from the Extensions view (`Ctrl+Shift+X`) by searching for "Colab in VS Code" and "Code Runner".

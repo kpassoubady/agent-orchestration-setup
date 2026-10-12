@@ -6,6 +6,7 @@ To participate in the breakout labs, you will need the following tools installed
 - **Git** for version control
 - **Python 3** to run the local validation scripts
 - **Claude Code** (and Node.js as a prerequisite) to participate in the agent orchestration exercises
+- **Visual Studio Code** as your code editor, with the **Colab in VS Code** and **Code Runner** extensions
 
 Please follow the instructions for your operating system:
 

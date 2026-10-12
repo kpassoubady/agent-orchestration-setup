@@ -81,6 +81,12 @@ Participants receive a fresh repository snapshot and two related task specificat
 
 Lab outcome: An orchestration record containing workspace assignments, task boundaries, handoff evidence, merge order, acceptance results, and one documented human approval point.
 
+#### Instructor-Selected Optional Lab: Custom-Agent Feature Delivery
+
+When learner interest prioritizes direct Claude Code practice, participants create project-scoped planner, implementer, and reviewer agents, then use them to deliver and verify a bounded notification-preference user story. The activity produces reusable agent definitions, a production-code diff, focused and full test results, and an independent ownership gate.
+
+This 30-minute option is not additional to the 240-minute schedule. Use it in place of a scheduled 30-minute practice block or offer it after the fixed session.
+
 ### Session Breakdown Table
 
 | Topic | Duration |
